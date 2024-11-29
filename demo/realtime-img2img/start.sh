@@ -8,4 +8,5 @@ else
     echo -e "\033[1;31m\nfrontend build failed\n\033[0m" >&2  exit 1
 fi
 cd ../
-python3 main.py --port 7860 --host 0.0.0.0 
+# python main.py --port 7860 --host 0.0.0.0 
+python main.py 
