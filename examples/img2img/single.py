@@ -13,11 +13,11 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def main(
-    input: str = os.path.join(CURRENT_DIR, "..", "..", "images", "inputs", "input.png"),
-    output: str = os.path.join(CURRENT_DIR, "..", "..", "images", "outputs", "output.png"),
+    input: str = os.path.join(CURRENT_DIR, "..", "..", "images", "inputs", "selfie.jpg"),
+    output: str = os.path.join(CURRENT_DIR, "..", "..", "images", "outputs", "output-selfie.png"),
     model_id_or_path: str = "KBlueLeaf/kohaku-v2.1",
     lora_dict: Optional[Dict[str, float]] = None,
-    prompt: str = "1girl with brown dog hair, thick glasses, smiling",
+    prompt: str = "1man with a purple mohawk",
     negative_prompt: str = "low quality, bad quality, blurry, low resolution",
     width: int = 512,
     height: int = 512,
